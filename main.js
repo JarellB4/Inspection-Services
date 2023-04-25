@@ -296,7 +296,7 @@ function sendEmail() {
   var email = document.getElementById("email").value;
   var message = document.getElementById("message").value;
   
-  var link = "mailto:youremail@example.com"
+  var link = "mailto:lachlaninspections@gmail.com"
            + "?subject=" + encodeURIComponent("Message from " + name)
            + "&body=" + encodeURIComponent("Name: " + name + "\nEmail: " + email + "\nMessage: " + message);
   
